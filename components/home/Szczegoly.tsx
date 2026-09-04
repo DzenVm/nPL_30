@@ -31,7 +31,7 @@ export function Szczegoly() {
               <div>
                 <p>
                   Każdy element ma stan liczony osobno: klosz, palnik, przekładnia, przewód,
-                  uszczelnienie. Naprawa doraźna przywraca działanie, ale nie stan — po trzeciej
+                  uszczelnienie. Naprawa doraźna przywraca działanie, ale nie stan. Po trzeciej
                   prowizorce część odmawia współpracy przy pierwszym mocniejszym podmuchu. Wymiana
                   na nowe kosztuje czas i zapas, którego zwykle brakuje właśnie tej nocy.
                 </p>
@@ -44,7 +44,7 @@ export function Szczegoly() {
                   W trakcie wachty przychodzą krótkie wiadomości: kuter prosi o potwierdzenie
                   charakterystyki, ktoś zgłasza światło widziane tam, gdzie go nie powinno być,
                   z portu pytają o przejezdność toru. Odpowiadanie nie jest obowiązkowe, ale to z
-                  tych wiadomości składa się obraz odcinka — i to one podpowiadają, gdzie zajrzeć,
+                  tych wiadomości składa się obraz odcinka i to one podpowiadają, gdzie zajrzeć,
                   zanim wskaźnik cokolwiek pokaże.
                 </p>
               </div>
@@ -56,7 +56,7 @@ export function Szczegoly() {
                   Poza pojedynczą wachtą jest tryb ciągły: dwanaście nocy od późnej jesieni do
                   początku zimy, z rosnącym zużyciem i malejącym zapasem. Celem jest doprowadzenie
                   szóstej, wygaszonej stacji z powrotem do sieci. Kampanię prowadzi się z tą samą
-                  załogą albo z kimś, kto akurat wszedł na wolne miejsce — postęp jest przypisany do
+                  załogą albo z kimś, kto akurat wszedł na wolne miejsce. Postęp jest przypisany do
                   odcinka, nie do konkretnej osoby.
                 </p>
               </div>
@@ -126,7 +126,7 @@ export function Szczegoly() {
             <li>
               <time>23:05</time>
               <p>
-                Wiatr skręca na północny zachód i przyspiesza. Na IV zaczyna zjeżdżać naciąg linki —
+                Wiatr skręca na północny zachód i przyspiesza. Na IV zaczyna zjeżdżać naciąg linki:
                 obrót zwalnia o ułamek sekundy na okrążenie, na razie niezauważalnie.
               </p>
             </li>
@@ -254,7 +254,7 @@ export function Szczegoly() {
               <div>
                 <p>
                   Stan trzyma serwer, więc wracasz tam, gdzie byłeś. Jeśli grasz z załogą, twoje
-                  stacje przez chwilę pracują bez opieki — to zwykle widać w dzienniku, ale rzadko
+                  stacje przez chwilę pracują bez opieki, co zwykle widać w dzienniku, ale rzadko
                   kończy się utratą światła.
                 </p>
               </div>

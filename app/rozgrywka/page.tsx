@@ -23,13 +23,13 @@ export default function Rozgrywka() {
         <p>
           Noc trwa od 21:30 do 5:30 czasu w grze, co przekłada się na 35–50 minut przy stole. Czas
           płynie ciągle i nie zatrzymuje się na czas naprawy. Można go spowolnić raz na sesję o
-          trzy minuty — to jedyny bufor, jaki daje gra, i zwykle zużywa się go za wcześnie.
+          trzy minuty. To jedyny bufor, jaki daje gra, i zwykle zużywa się go za wcześnie.
         </p>
 
         <h2>Odczyty i objawy</h2>
         <p>
           Każda stacja ma cztery wskaźniki: ciśnienie, zapas paliwa, temperaturę klosza i naciąg
-          mechanizmu. Same liczby nic nie znaczą — liczy się kierunek zmiany między obchodami.
+          mechanizmu. Same liczby nic nie znaczą, liczy się kierunek zmiany między obchodami.
           Spadek ciśnienia o dwie dziesiąte w kwadrans to przeciek. Ten sam spadek rozłożony na dwie
           godziny to normalne wychłodzenie instalacji.
         </p>
@@ -65,7 +65,7 @@ export default function Rozgrywka() {
           Prawie każdą usterkę da się załatać w kilka minut. Łata przywraca działanie, ale zostawia
           w dzienniku ślad, a element traci część wytrzymałości. Wymiana zajmuje trzy razy dłużej i
           zużywa zapas, za to zeruje historię. Wybór między jednym a drugim jest sednem gry i nie ma
-          tu odpowiedzi uniwersalnej — zależy od tego, ile nocy zostało do końca kampanii.
+          tu odpowiedzi uniwersalnej: zależy od tego, ile nocy zostało do końca kampanii.
         </p>
 
         <h2>Ocena nocy</h2>
