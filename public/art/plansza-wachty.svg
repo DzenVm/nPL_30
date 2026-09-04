@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Układ planszy wachty: pasek stacji, panel zleceń i wykres poziomu wody">
+  <rect width="1200" height="675" fill="#0e181d"/>
+  <rect x="28" y="28" width="1144" height="619" rx="14" fill="#122127" stroke="#263d44" stroke-width="2"/>
+
+  <rect x="28" y="28" width="1144" height="66" rx="14" fill="#16262c"/>
+  <g font-family="Consolas, monospace" font-size="14" fill="#9fb6b8">
+    <text x="56" y="68">WACHTA 03:14 · DO ŚWITU 2 h 46 min</text>
+    <text x="900" y="68" fill="#f0a44b">ZAŁOGA 4 / 6</text>
+  </g>
+
+  <g>
+    <rect x="56" y="120" width="700" height="300" rx="10" fill="#0f1d23" stroke="#263d44"/>
+    <g font-family="Consolas, monospace" font-size="12" fill="#5d7376">
+      <text x="76" y="148">POZIOM WODY · OSTATNIE 6 GODZIN</text>
+    </g>
+    <g stroke="#1f3238" stroke-width="1">
+      <path d="M76 200h660M76 260h660M76 320h660M76 380h660"/>
+    </g>
+    <path d="M76 344c60-18 110-64 170-72s110 34 170 22 110-70 170-58 110 58 150 46" fill="none" stroke="#4f9c9a" stroke-width="3"/>
+    <path d="M76 372c60-14 110-46 170-52s110 26 170 16 110-52 170-42 110 42 150 34" fill="none" stroke="#f0a44b" stroke-width="2" stroke-dasharray="6 6"/>
+    <g fill="#4f9c9a"><circle cx="586" cy="230" r="5"/></g>
+    <text x="600" y="226" font-family="Consolas, monospace" font-size="12" fill="#8fb0b2">szczyt 0,78 m</text>
+  </g>
+
+  <g>
+    <rect x="788" y="120" width="356" height="300" rx="10" fill="#0f1d23" stroke="#263d44"/>
+    <text x="810" y="148" font-family="Consolas, monospace" font-size="12" fill="#5d7376">ZGŁOSZENIA Z ODCINKA</text>
+    <g font-family="Consolas, monospace" font-size="13">
+      <rect x="808" y="164" width="316" height="52" rx="6" fill="#16262c"/>
+      <text x="824" y="186" fill="#e8e1d3">III · przepalony palnik</text>
+      <text x="824" y="206" fill="#d1614f">priorytet wysoki</text>
+
+      <rect x="808" y="228" width="316" height="52" rx="6" fill="#16262c"/>
+      <text x="824" y="250" fill="#e8e1d3">V · przeciek w rurze</text>
+      <text x="824" y="270" fill="#f0a44b">priorytet średni</text>
+
+      <rect x="808" y="292" width="316" height="52" rx="6" fill="#16262c"/>
+      <text x="824" y="314" fill="#e8e1d3">I · zapas nafty 18%</text>
+      <text x="824" y="334" fill="#4f9c9a">w drodze</text>
+
+      <rect x="808" y="356" width="316" height="46" rx="6" fill="#16262c" opacity=".6"/>
+      <text x="824" y="384" fill="#7f9497">II · sondowanie zakończone</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="56" y="452" width="1088" height="164" rx="10" fill="#0f1d23" stroke="#263d44"/>
+    <text x="80" y="480" font-family="Consolas, monospace" font-size="12" fill="#5d7376">STACJE NA ODCINKU</text>
+    <g font-family="Consolas, monospace" font-size="13">
+      <g transform="translate(80,500)">
+        <rect width="160" height="90" rx="8" fill="#16262c" stroke="#3d6068"/>
+        <circle cx="24" cy="30" r="9" fill="#4f9c9a"/><text x="44" y="35" fill="#e8e1d3">I</text>
+        <text x="16" y="64" fill="#7f9497">świeci · 92%</text>
+      </g>
+      <g transform="translate(260,500)">
+        <rect width="160" height="90" rx="8" fill="#16262c" stroke="#3d6068"/>
+        <circle cx="24" cy="30" r="9" fill="#4f9c9a"/><text x="44" y="35" fill="#e8e1d3">II</text>
+        <text x="16" y="64" fill="#7f9497">świeci · 74%</text>
+      </g>
+      <g transform="translate(440,500)">
+        <rect width="160" height="90" rx="8" fill="#1d2226" stroke="#d1614f"/>
+        <circle cx="24" cy="30" r="9" fill="#d1614f"/><text x="44" y="35" fill="#e8e1d3">III</text>
+        <text x="16" y="64" fill="#d1614f">zgasła</text>
+      </g>
+      <g transform="translate(620,500)">
+        <rect width="160" height="90" rx="8" fill="#16262c" stroke="#3d6068"/>
+        <circle cx="24" cy="30" r="9" fill="#4f9c9a"/><text x="44" y="35" fill="#e8e1d3">IV</text>
+        <text x="16" y="64" fill="#7f9497">świeci · 61%</text>
+      </g>
+      <g transform="translate(800,500)">
+        <rect width="160" height="90" rx="8" fill="#16262c" stroke="#f0a44b"/>
+        <circle cx="24" cy="30" r="9" fill="#f0a44b"/><text x="44" y="35" fill="#e8e1d3">V</text>
+        <text x="16" y="64" fill="#f0a44b">migocze</text>
+      </g>
+      <g transform="translate(980,500)">
+        <rect width="140" height="90" rx="8" fill="#16262c" stroke="#3d6068" stroke-dasharray="5 5"/>
+        <circle cx="24" cy="30" r="9" fill="#3d6068"/><text x="44" y="35" fill="#8fa4a8">VI</text>
+        <text x="16" y="64" fill="#5d7376">poza siecią</text>
+      </g>
+    </g>
+  </g>
+</svg>

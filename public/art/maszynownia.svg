@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Przekrój maszynowni latarni: mechanizm obrotu, zbiornik i tablica rozdzielcza">
+  <defs>
+    <linearGradient id="mur" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a2a31"/><stop offset=".5" stop-color="#22363e"/><stop offset="1" stop-color="#15242a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#0f1a20"/>
+  <rect x="180" y="40" width="840" height="595" rx="12" fill="url(#mur)" stroke="#2c454d" stroke-width="2"/>
+
+  <g stroke="#2c454d" stroke-width="1" opacity=".55">
+    <path d="M180 140h840M180 250h840M180 360h840M180 470h840M180 560h840"/>
+  </g>
+
+  <g transform="translate(430,250)">
+    <circle r="140" fill="none" stroke="#3d6068" stroke-width="6"/>
+    <circle r="112" fill="none" stroke="#f0a44b" stroke-width="3" stroke-dasharray="10 14"/>
+    <circle r="34" fill="#24565c" stroke="#4f9c9a" stroke-width="3"/>
+    <circle r="10" fill="#f0a44b"/>
+    <g stroke="#8fa4a8" stroke-width="5">
+      <path d="M0-140V-34M0 34v106M-140 0h106M34 0h106"/>
+      <path d="M-99-99 -24-24M99 99 24 24M99-99 24-24M-99 99 -24 24"/>
+    </g>
+    <g fill="#3d6068">
+      <circle cx="0" cy="-140" r="9"/><circle cx="0" cy="140" r="9"/>
+      <circle cx="-140" cy="0" r="9"/><circle cx="140" cy="0" r="9"/>
+      <circle cx="-99" cy="-99" r="7"/><circle cx="99" cy="99" r="7"/>
+      <circle cx="99" cy="-99" r="7"/><circle cx="-99" cy="99" r="7"/>
+    </g>
+  </g>
+
+  <g transform="translate(760,190)">
+    <rect x="-90" y="-110" width="180" height="220" rx="10" fill="#16262c" stroke="#3d6068" stroke-width="3"/>
+    <rect x="-70" y="10" width="140" height="82" rx="4" fill="#24565c" opacity=".8"/>
+    <path d="M-70 10h140" stroke="#4f9c9a" stroke-width="3"/>
+    <g stroke="#5c7a7e" stroke-width="2">
+      <path d="M-70-84h140M-70-56h140M-70-28h140"/>
+    </g>
+    <text x="0" y="-95" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#9fb6b8">ZBIORNIK · 240 l</text>
+    <path d="M0 110v46h-120" fill="none" stroke="#8fa4a8" stroke-width="5"/>
+  </g>
+
+  <g transform="translate(880,430)">
+    <rect x="-110" y="-90" width="220" height="180" rx="8" fill="#132025" stroke="#3d6068" stroke-width="3"/>
+    <g fill="#0d1418" stroke="#2c454d">
+      <rect x="-88" y="-66" width="72" height="46" rx="4"/>
+      <rect x="14" y="-66" width="72" height="46" rx="4"/>
+    </g>
+    <g stroke="#f0a44b" stroke-width="3" fill="none">
+      <path d="M-52-43 -30-58"/><path d="M50-43 34-60"/>
+    </g>
+    <g fill="#4f9c9a"><circle cx="-70" cy="24" r="12"/><circle cx="-24" cy="24" r="12"/></g>
+    <g fill="#d1614f"><circle cx="24" cy="24" r="12"/></g>
+    <g fill="#8fa4a8"><rect x="52" y="6" width="40" height="36" rx="4"/></g>
+    <text x="0" y="74" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497">TABLICA ROZDZIELCZA</text>
+  </g>
+
+  <g transform="translate(300,520)">
+    <rect x="-90" y="-60" width="180" height="120" rx="6" fill="#16262c" stroke="#3d6068" stroke-width="3"/>
+    <circle cx="-36" cy="0" r="30" fill="none" stroke="#8fa4a8" stroke-width="4"/>
+    <circle cx="36" cy="0" r="30" fill="none" stroke="#8fa4a8" stroke-width="4"/>
+    <path d="M-36 0 -18-22M36 0 52 16" stroke="#f0a44b" stroke-width="4"/>
+    <text x="0" y="86" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497">POMPA ZAPASOWA</text>
+  </g>
+
+  <g stroke="#8fa4a8" stroke-width="4" fill="none">
+    <path d="M570 250h100"/>
+    <path d="M430 390v130h-140"/>
+    <path d="M760 300v130h10"/>
+  </g>
+
+  <g font-family="Consolas, monospace" font-size="13" fill="#9fb6b8">
+    <text x="205" y="76">PRZEKRÓJ A–A · POZIOM MASZYNOWNI</text>
+    <text x="205" y="618" fill="#5d7376">rys. warsztatowy do wglądu wachty</text>
+  </g>
+</svg>

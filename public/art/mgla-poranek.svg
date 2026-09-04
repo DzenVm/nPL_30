@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Poranna mgła nad wodą, pława i sylwetka pomostu">
+  <defs>
+    <linearGradient id="swit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8cdb8"/><stop offset=".45" stop-color="#a9aca2"/>
+      <stop offset=".72" stop-color="#7d8c8a"/><stop offset="1" stop-color="#4c6165"/>
+    </linearGradient>
+    <linearGradient id="mglaG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5e0d2" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e5e0d2" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#swit)"/>
+  <circle cx="880" cy="212" r="58" fill="#f6e2bd" opacity=".55"/>
+  <circle cx="880" cy="212" r="120" fill="#f6e2bd" opacity=".18"/>
+
+  <g opacity=".5" fill="#2f4147">
+    <path d="M0 372h1200v10H0z"/>
+  </g>
+
+  <g stroke="#2b3c41" stroke-width="6" opacity=".45">
+    <path d="M120 378v92M170 378v92M220 378v92M270 378v92M320 378v92M370 378v92"/>
+  </g>
+  <path d="M96 366h300v16H96z" fill="#33474c" opacity=".5"/>
+  <path d="M96 352h300v14H96z" fill="#3d5257" opacity=".4"/>
+
+  <g transform="translate(760,392)" opacity=".7">
+    <path d="M-26 0h52l-10 40h-32z" fill="#5b4a3f"/>
+    <path d="M-14-38h28v38h-28z" fill="#7a5a45"/>
+    <circle cx="0" cy="-48" r="12" fill="#c96f4f"/>
+    <path d="M-30 40h60l-8 12h-44z" fill="#3f5257"/>
+  </g>
+
+  <rect y="330" width="1200" height="345" fill="url(#mglaG)"/>
+  <g fill="#e8e4d8" opacity=".35">
+    <ellipse cx="240" cy="452" rx="360" ry="46"/>
+    <ellipse cx="820" cy="500" rx="420" ry="54"/>
+    <ellipse cx="520" cy="560" rx="520" ry="62"/>
+    <ellipse cx="1000" cy="420" rx="280" ry="38"/>
+  </g>
+
+  <g stroke="#59706f" stroke-width="2.5" fill="none" opacity=".55">
+    <path d="M0 596c80-14 160 14 240 0s160-16 240 0 160 14 240 0 160-16 240 0 160 14 240 0"/>
+    <path d="M0 640c90-16 180 16 270 0s180-18 270 0 180 16 270 0 180-18 270 0" opacity=".7"/>
+  </g>
+
+  <g fill="#3a4c50" opacity=".8">
+    <path d="M1016 274c6-5 12-5 18 0M1042 274c6-5 12-5 18 0"/>
+  </g>
+  <g fill="none" stroke="#3a4c50" stroke-width="2.5" opacity=".7">
+    <path d="M1012 268c7-6 14-6 21 0M1044 258c7-6 14-6 21 0M1078 282c7-6 14-6 21 0"/>
+  </g>
+</svg>

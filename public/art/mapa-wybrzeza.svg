@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Szkic mapy odcinka wybrzeża z sześcioma stacjami">
+  <defs>
+    <pattern id="krata" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#1f3238" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#101c22"/>
+  <rect width="1200" height="675" fill="url(#krata)"/>
+
+  <path d="M0 250c120-30 210 6 300-14s150-58 258-48 168 66 268 52 260-62 374-30v455H0z" fill="#14282c" opacity=".9"/>
+  <path d="M0 250c120-30 210 6 300-14s150-58 258-48 168 66 268 52 260-62 374-30" fill="none" stroke="#4f9c9a" stroke-width="3"/>
+  <path d="M0 286c120-28 214 8 302-12s152-56 258-46 168 64 266 50 258-60 374-28" fill="none" stroke="#2f6166" stroke-width="1.5" stroke-dasharray="7 9"/>
+
+  <g fill="#0d1418" opacity=".6">
+    <path d="M0 380h1200v295H0z"/>
+  </g>
+  <g stroke="#1f4147" stroke-width="1.5" fill="none" opacity=".8">
+    <path d="M0 420h1200M0 480h1200M0 540h1200M0 600h1200"/>
+  </g>
+
+  <g font-family="Consolas, monospace" font-size="13" fill="#9fb6b8">
+    <text x="24" y="44">ODCINEK BRZEGOWY · SZKIC ROBOCZY</text>
+    <text x="24" y="66" fill="#5d7376">skala orientacyjna · 1 pole = 4 Mm</text>
+  </g>
+
+  <g>
+    <g transform="translate(118,236)">
+      <circle r="9" fill="#f0a44b"/><circle r="18" fill="none" stroke="#f0a44b" stroke-width="1.5" opacity=".5"/>
+      <text y="-30" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#e8e1d3">I · Gąski</text>
+      <text y="42" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497">błysk co 5 s</text>
+    </g>
+    <g transform="translate(322,222)">
+      <circle r="9" fill="#f0a44b"/><circle r="18" fill="none" stroke="#f0a44b" stroke-width="1.5" opacity=".5"/>
+      <text y="-30" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#e8e1d3">II · Ustka</text>
+      <text y="42" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497">błysk co 8 s</text>
+    </g>
+    <g transform="translate(540,178)">
+      <circle r="9" fill="#f0a44b"/><circle r="18" fill="none" stroke="#f0a44b" stroke-width="1.5" opacity=".5"/>
+      <text y="-30" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#e8e1d3">III · Stilo</text>
+      <text y="42" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497">stałe + przerwa</text>
+    </g>
+    <g transform="translate(742,206)">
+      <circle r="9" fill="#f0a44b"/><circle r="18" fill="none" stroke="#f0a44b" stroke-width="1.5" opacity=".5"/>
+      <text y="-30" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#e8e1d3">IV · Rozewie</text>
+      <text y="42" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497">błysk co 3 s</text>
+    </g>
+    <g transform="translate(912,236)">
+      <circle r="9" fill="#f0a44b"/><circle r="18" fill="none" stroke="#f0a44b" stroke-width="1.5" opacity=".5"/>
+      <text y="-30" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#e8e1d3">V · Jastarnia</text>
+      <text y="42" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497">sektor czerwony</text>
+    </g>
+    <g transform="translate(1080,206)">
+      <circle r="9" fill="#d1614f"/><circle r="18" fill="none" stroke="#d1614f" stroke-width="1.5" opacity=".5"/>
+      <text y="-30" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#e8e1d3">VI · Krynica</text>
+      <text y="42" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#c1786c">światło zgaszone</text>
+    </g>
+  </g>
+
+  <path d="M127 236 320 222 538 178 740 206 910 236 1078 206" fill="none" stroke="#f0a44b" stroke-width="1.5" stroke-dasharray="4 8" opacity=".7"/>
+
+  <g stroke="#3c6f74" stroke-width="1.5" fill="none">
+    <path d="M180 470c60 26 130 26 190 0s130-26 190 0 130 26 190 0 130-26 190 0"/>
+    <path d="M120 560c70 30 150 30 220 0s150-30 220 0 150 30 220 0 150-30 220 0" opacity=".6"/>
+  </g>
+  <g font-family="Consolas, monospace" font-size="12" fill="#4d6f73">
+    <text x="180" y="452">tor wodny — kierunek wschodni</text>
+    <text x="120" y="542">ławica ruchoma, sondowana co wachtę</text>
+  </g>
+
+  <g transform="translate(1090,560)" stroke="#7f9497" fill="none" stroke-width="2">
+    <circle r="40"/><path d="M0-46V-30M0 46V30M-46 0h16M46 0H30"/>
+    <path d="M0-34 8 0 0 34 -8 0z" fill="#d1614f" stroke="none"/>
+    <text y="-52" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7f9497" stroke="none">N</text>
+  </g>
+</svg>
