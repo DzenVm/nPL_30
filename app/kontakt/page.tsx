@@ -35,9 +35,8 @@ export default function Kontakt() {
 
         <h2>Adres serwisu</h2>
         <p>
-          Docelowa domena zostanie podpięta razem z wersją otwartą. Do tego czasu strona działa pod
-          adresem tymczasowym: <code>{SITE_URL}</code>. Wszystkie odnośniki wewnętrzne są względne,
-          więc po zmianie domeny nic nie wymaga poprawek.
+          Serwis działa pod adresem <code>{SITE_URL}</code>. Pod tym samym adresem uruchomimy grę,
+          więc nie trzeba nigdzie zapisywać drugiego linku.
         </p>
 
       </div>

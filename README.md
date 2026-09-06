@@ -24,17 +24,18 @@ npm run typecheck
 
 ## Zmienne środowiskowe
 
-Skopiuj `.env.example` do `.env.local`. Do czasu podpięcia właściwej domeny `NEXT_PUBLIC_SITE_URL`
-zostaje adresem zastępczym — wpływa wyłącznie na adresy bezwzględne w `sitemap.xml`, `robots.txt`
-i znacznikach Open Graph. Wszystkie odnośniki wewnętrzne są względne, więc zmiana domeny sprowadza
-się do podmiany tej jednej wartości.
+Skopiuj `.env.example` do `.env.local`. `NEXT_PUBLIC_SITE_URL` wskazuje na `https://fyedoni.live`
+i wpływa wyłącznie na adresy bezwzględne w `sitemap.xml`, `robots.txt` i znacznikach Open Graph.
+Wszystkie odnośniki wewnętrzne są względne, więc ewentualna zmiana domeny sprowadza się do podmiany
+tej jednej wartości. Gdy zmienna jest pusta lub niepoprawna, kod wraca do adresu wpisanego
+w `lib/site.ts`.
 
 ## Wdrożenie na Vercel
 
 1. Podłącz repozytorium w panelu Vercel — framework wykrywa się sam (`vercel.json`, region `fra1`).
 2. Ustaw `NEXT_PUBLIC_SITE_URL` i `NEXT_PUBLIC_CONTACT_EMAIL` w zmiennych projektu.
-3. Po podpięciu domeny wystarczy ponowne wdrożenie, żeby mapa strony i znaczniki OG wskazywały
-   właściwy adres.
+3. Podepnij domenę `fyedoni.live` wraz z wariantem `www` i ustaw przekierowanie na wersję bez
+   `www`, żeby mapa strony i adresy kanoniczne wskazywały jeden adres.
 
 ## Struktura
 

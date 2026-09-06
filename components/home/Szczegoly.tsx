@@ -299,8 +299,8 @@ export function Szczegoly() {
               </Link>
             </div>
             <p className={s.uwaga}>
-              Adres docelowy uruchomimy razem z otwartą wersją. Do tego czasu strona opisuje projekt
-              i zbiera zgłoszenia od osób, które chcą wejść wcześniej.
+              Wersja otwarta rusza pod tym samym adresem, na którym właśnie jesteś. Do jej
+              uruchomienia zapisujemy zgłoszenia od osób, które chcą wejść wcześniej.
             </p>
           </div>
         </div>

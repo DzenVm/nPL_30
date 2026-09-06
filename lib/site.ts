@@ -1,4 +1,4 @@
-const ADRES_ZASTEPCZY = "https://domena-docelowa.pl";
+const ADRES_SERWISU = "https://fyedoni.live";
 
 /**
  * Adres bazowy bierzemy ze zmiennej projektu, ale nie ufamy jej w ciemno:
@@ -10,21 +10,21 @@ function adresBazowy(): string {
   const zVercela = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
   const kandydat = jawny || (zVercela ? `https://${zVercela}` : "");
 
-  if (!kandydat) return ADRES_ZASTEPCZY;
+  if (!kandydat) return ADRES_SERWISU;
 
   const zeSchematem = /^https?:\/\//i.test(kandydat) ? kandydat : `https://${kandydat}`;
 
   try {
     return new URL(zeSchematem).origin;
   } catch {
-    return ADRES_ZASTEPCZY;
+    return ADRES_SERWISU;
   }
 }
 
 export const SITE_URL = adresBazowy();
 
 export const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "kontakt@domena-docelowa.pl";
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "kontakt@fyedoni.live";
 
 export const nav = [
   { href: "/swiat", label: "Świat" },

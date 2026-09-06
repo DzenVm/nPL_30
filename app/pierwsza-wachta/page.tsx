@@ -21,9 +21,9 @@ export default function PierwszaWachta() {
         <span className="eyebrow">Wejście do gry</span>
         <h1>Pierwsza noc na odcinku</h1>
         <p className="lede">
-          Wersja otwarta ruszy pod docelowym adresem, który uruchamiamy razem z premierą. Ta strona
-          opisuje, co zastaniesz pierwszego wieczoru i jak przygotować się na kwadrans, w którym
-          wszystko wydaje się dziać naraz.
+          Wersja otwarta ruszy pod tym samym adresem, na którym czytasz ten tekst. Poniżej opisujemy,
+          co zastaniesz pierwszego wieczoru i jak przygotować się na kwadrans, w którym wszystko
+          wydaje się dziać naraz.
         </p>
 
         <p>
